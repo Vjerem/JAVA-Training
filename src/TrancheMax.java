@@ -19,7 +19,7 @@ class TrancheMax {
         }
 
         // Trouver la liste des lignes avec le plus grand nombre de 1 consecutif
-        // Ces numÃ©ros de lignes sont stockÃ©s dans un tableau dynamique
+        // Ces numéros de lignes sont stockés dans un tableau dynamique
         ArrayList<Integer> maxConsecutifList = findConsecutiveList(matrice);
 
         if (maxConsecutifList.isEmpty()) {
