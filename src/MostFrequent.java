@@ -1,7 +1,7 @@
 class MostFrequent {
 
   public static void main(String[] args) {
-    int[] tab1 = {2, 7, 5, 6, 7, 1, 6, 2, 1, 7, 6};
+    int[] tab1 = { 1, 1, 1, 7, 5, 6, 7, 1, 6, 2, 1, 7, 6 };
     int taille = tab1.length;
 
     /*******************************************
@@ -34,4 +34,5 @@ class MostFrequent {
      *******************************************/
     System.out.println("Le nombre le plus frequent dans le tableau est le :");
     System.out.println(maxNumber + " (" + max + " x" + ")");
-  }}
+  }
+}
